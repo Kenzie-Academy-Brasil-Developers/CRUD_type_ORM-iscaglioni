@@ -1,3 +1,4 @@
+import 'reflect-metadata'
 import { DataSource } from "typeorm"
 import "dotenv/config"
 
@@ -23,4 +24,4 @@ const AppDataSource = new DataSource(
     }
 )
 
-export default AppDataSource
+export default AppDataSource;
